@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#header{
+  height: 10vh;
+  width: 100vw;
+}
+
+#bucket {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+}
+
+#map {
+  display: flex;
+  justify-content: flex-start;
+  height: 90vh;
+  width: 80vw;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebucket {
+  display: flex;
+  justify-content: flex-end;
+  height: 90vh;
+  width: 20vh;
+  margin: 5vw;
+  padding: 0px;
+  /* float: right; */
+}
+
+#selectors {
+  /* width: auto; */
+  display: flex;
+  align-items: flex-start;
+}
+
+#itinerary {
+  /* width: auto; */
+  display: flex;
+  align-items: flex-end;
+}
